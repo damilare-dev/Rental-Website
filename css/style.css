@@ -1,0 +1,163 @@
+#head{
+    height: 700px;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../images/header.png");
+    /* overflow: auto; */
+}
+
+nav{
+    position: absolute;
+    border-bottom: 1px solid white;
+}
+
+.nav-item{
+    padding: 0 30px;
+}
+
+
+.nav-link {
+ color: white;
+} 
+
+#logo{
+    width: 100%;
+    height: 50px;
+    padding: 4px;
+}
+
+#mynavbar{
+    text-align: end;
+    position: absolute;
+    left: 30%;
+    /* margin-left: 180px; */
+}
+
+#afford{
+    margin-top: 100px;
+    /* padding: 20px 22px; */
+}
+
+#afford h1{
+    font-size: 50px ;
+    font-weight: 750;
+    /* width: 100%; */
+    /* padding: 34px 0; */
+    text-align: start;
+    color: white;
+}
+
+#map{
+    width: 100%;
+    height: 300px;
+}
+
+#selec{
+    padding: 8px 0px;
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    /* margin-left: 15px; */
+    text-align: center;
+    border-radius: 10px;
+}
+
+#min-img{
+    width: 100%;
+    height: 450px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
+}
+
+.icimg{
+    padding: 10px;
+    width: 20%;
+    /* display: inline-block; */
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px 0px;;
+}
+
+.icons > h5{
+    padding: 5px 0px ;
+}
+
+.icimg img{
+    width: 100%;
+    /* height: 60px; */
+}
+
+#icft{
+    color: orangered;
+    padding: 0px 3px;
+    font-size: 15px;
+}
+
+#scmd{
+    padding: 0px 10px;
+    color: orangered;
+    font-size: 20px;
+}
+
+.dot{
+    height: 25px;
+  width: 25px;
+  background-color: orangered;
+  border-radius: 50%;
+  display: inline-block;
+}
+.icons{
+    width: 30%;
+    justify-content: space-around;
+    padding: 20px 20px;
+    display: inline-block;
+}
+#ftdiv{
+    text-align: center;
+    border-top: 3px solid gainsboro;
+    padding: 30px 50px;
+    font-weight: 600;
+}
+
+#ftdiv a{
+    color: black;
+    display: inline;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+
+#props{
+    position: relative;
+}
+
+#props > button{
+  position: absolute;
+  left: 80%;
+  top: 0px;
+  color: white;
+  background-color: orangered;
+  border: 0;
+  padding: 8px;
+}
+
+.pagination{
+    margin-top: 50px;
+}
+
+#link{
+    color: orangered;
+}
+
+@media(max-width:768px){
+   .nav-link{
+        /* display: none; */
+    }
+
+    #map{
+        /* width: 200px;
+        height: 200px;
+        margin-top: 50px; */
+    }
+}
